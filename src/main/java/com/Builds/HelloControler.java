@@ -16,7 +16,7 @@ public class HelloControler {
         return "Hola Mundo Como estas?";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 
